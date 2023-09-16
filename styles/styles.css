@@ -89,7 +89,7 @@ nav ul li {
   padding: 18px 35px;
 }
 /* main styles */
-main {
+main{
   max-width: 940px;
   margin: 0 auto;
 }
@@ -177,5 +177,35 @@ margin-right: 30px;
   border-right: none;
 }
 .resume-btn{
-  margin: 0px 336px;
+  text-align: center;
+  margin-bottom: 110px;
+}
+/* footer styles */
+.footer{
+  display: flex;
+  gap: 150px;
+  padding: 130px 220px;
+  background: #FFF8F3;
+}
+.footer .section-title, .section-description{
+  text-align: left;
+}
+.footer .section-title{
+  margin-bottom: 25p;
+}
+.footer ul{
+  margin-right: 100px;
+}
+.footer ul li{
+  list-style: none;
+  display: inline;
+}
+.footer-icons{
+  margin-right: 50px;
+}
+.footer input[type="text"], input[type="email"], textarea{
+  margin-bottom: 24px;
+  width: 100%;
+  border: 0;
+  padding: 15px;
 }
