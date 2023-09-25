@@ -209,3 +209,28 @@ margin-right: 30px;
   border: 0;
   padding: 15px;
 }
+/* responsive layout styles */
+@media  screen and (max-width: 576px) {
+  body{
+    text-align: center;
+  }
+  nav, .banner, .header, .about-details-container, .what-details-container, .resume-container, .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .banner img{
+    display: none;
+  }
+  .footer{
+    padding: 0;
+  }
+}
+@media screen and (min-width:577px)and (max-width: 992px){
+  .banner, .what-details-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.hide{
+  display: none;
+}
